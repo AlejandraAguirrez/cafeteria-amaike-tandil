@@ -1,0 +1,22 @@
+{
+  "name": "cafeteria-alejandra-aguirre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass style.scss style.css -w" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandraAguirrez/cafeteria-amaike-tandil.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandraAguirrez/cafeteria-amaike-tandil/issues"
+  },
+  "homepage": "https://github.com/AlejandraAguirrez/cafeteria-amaike-tandil#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
