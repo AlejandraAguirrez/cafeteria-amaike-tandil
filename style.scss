@@ -105,9 +105,9 @@ h2 {
 }
 }
 
-.image__cafe {
-    border-radius: 30px;
-    border-bottom-left-radius: 60px;
+.imagen__cafe {
+    border-radius: 40px;
+    border-bottom-left-radius: 90px;
     box-shadow: 0 20px 30px -15px black;
     transition: transform 0.3s;
 }
@@ -201,7 +201,7 @@ tr:hover {
 }
 
 .dato-2 {
-    @include dato-base(italic,rgb(252, 243, 243));
+    @include dato-base(italic,rgb(252, 243, 243))
 }
 
 //Maps - Bucle each
@@ -214,10 +214,10 @@ $redSocial: (
 
 @each $nombre, $color in $redSocial {
    .link-#{$nombre} {
-        border-radius: 10px;
+        border-radius: 40px;
         background-color: $color;
         margin: 20px;
-        padding: 5px; 
+        padding: 10px; 
     }
 }
 
